@@ -1,0 +1,27 @@
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 25vh;
+    gap: 1rem;
+}
+
+.cabecalho_menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.cabecalho_menu-item{
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    color: gray;
+    transition: 300ms;
+}
+
+.cabecalho_menu-item:hover{
+    color:white;
+    background-color: var(--cinza-cimento);
+}

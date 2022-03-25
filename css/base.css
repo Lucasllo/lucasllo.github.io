@@ -1,0 +1,19 @@
+:root{
+    --cinza-cimento:#93a8ac;
+    --azul-esver:#C2E7DA;
+    --cinza-claro:#ebebeb;
+    --cinza-clarinho: #f8f8f8;
+    --azul-escuro: #282f3b;
+
+    --fonte: 'Source Sans Pro', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    color: var(--azul-escuro);
+    background-color: var(--cinza-claro);
+    font-family: var(--fonte);
+}
